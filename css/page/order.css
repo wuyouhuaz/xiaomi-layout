@@ -1,0 +1,267 @@
+.order-nav {
+    border-top: 1px solid #ccc;
+    box-shadow: #eee 0px 10px 10px;
+}
+
+.order-nav .col {
+    font-size: 1rem;
+    display: inline-block;
+    width: 50%;
+    margin: 20px 0;
+}
+
+.order-nav .commodity-name {
+    font-size: 18px;
+    color: #444;
+}
+
+.order-nav .order-tools {
+    text-align: right;
+}
+
+.order-nav .order-tools a {
+    color: #444;
+}
+
+.order-nav .order-tools a:hover {
+    color: #ff6700;
+}
+
+.order-nav .order-tools a:active {
+    color: #ff6700;
+}
+
+.order-nav .order-tools .sep {
+    display: inline-block;
+    margin: 0 10px;
+    color: #ccc;
+}
+
+.order-content {
+    margin-top: 30px;
+}
+
+.order-content .leftside,
+.order-content .rightside {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.order-content .leftside img {
+    width: 560px;
+    height: 560px;
+}
+
+.order-content .rightside {
+    margin-left: 30px;
+}
+
+.order-content .rightside>.title {
+    font-size: 28px;
+    margin: 5px 0;
+}
+
+.order-content .rightside .desc {
+    line-height: 1.5;
+    font-size: 14px;
+    color: #aaa;
+    margin: 5px 0;
+}
+
+.order-content .rightside>.price {
+    color: #ff6700;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.order-content .rightside .address-bar {
+    border: 1px solid #ccc;
+    background-color: #f6f6f6;
+    margin: 40px 0;
+    padding: 35px 30px;
+    width: 630px;
+    border-radius: 5px;
+}
+
+.order-content .rightside .address-bar .address {
+    display: inline-block;
+}
+
+.order-content .rightside .address-bar .address span {
+    margin-right: 20px;
+    color: #666;
+}
+
+.order-content .rightside .address-bar .address .change-addr {
+    color: #ff6700;
+}
+
+.order-content .rightside .address-bar .product {
+    color: #ff6700;
+    margin-left: 20px;
+}
+
+.order-content .rightside .version-choosing .title {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.order-content .rightside .version-choosing .version-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 630px;
+    text-align: center;
+}
+
+.order-content .rightside .version-choosing .version-list>* {
+    /* flex: 6; */
+    border: 1px solid #ccc;
+    width: 312px;
+    margin-right: 3px;
+    padding: 15px 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.order-content .rightside .version-choosing .version-list>*:active {
+    color: #ff6700;
+    border: 1px solid #ff6700;
+    border-radius: 5px;
+}
+
+.order-content .rightside .version-choosing .version-list .price {
+    margin-left: 120px;
+    color: #aaa;
+}
+
+.order-content .rightside .color-choosing {
+    margin: 20px 0;
+    /* width: 630px; */
+}
+
+.order-content .rightside .color-choosing .title {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.order-content .rightside .color-choosing .color-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 630px;
+}
+
+.order-content .rightside .color-choosing .color-list>* {
+    border: 1px solid #ccc;
+    width: 24%;
+    margin-right: 3px;
+    padding: 15px 20px;
+    text-align: center;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.order-content .rightside .color-choosing .color-list>*:active {
+    color: #ff6700;
+    border: 1px solid #ff6700;
+    border-radius: 5px;
+}
+
+.order-content .rightside .service-choosing .title {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.order-content .rightside .service-choosing .title a {
+    color: #ff6700;
+    font-size: 14px;
+}
+
+.order-content .rightside .service-choosing img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.order-content .rightside .service-choosing .service1 {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px 15px;
+    vertical-align: middle;
+}
+
+.order-content .rightside .service-choosing .service1:active {
+    border: 1px solid #ff6700;
+}
+
+.order-content .rightside .service-choosing .service-list .service1>* {
+    display: inline-block;
+}
+
+.order-content .rightside .service-choosing .service-list .service1 .service-name {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.order-content .rightside .service-choosing .service-list .service1 .service-desc {
+    color: #ccc;
+    margin: 5px 0;
+}
+
+.order-content .rightside .service-choosing .service-list .service1 .service-detail {
+    margin: 5px 0;
+}
+
+.order-content .rightside .service-choosing .service-list .service1 .service-detail a {
+    color: #ff6700;
+}
+
+.order-content .rightside .service-choosing .service-list .service1 .service-detail .sep {
+    color: #ccc;
+}
+
+.order-content .rightside .service-choosing .service-list .service1 .service-detail .price {
+    color: #aaa;
+    margin-left: 120px;
+}
+
+.order-content .rightside .service-choosing .service1 .radio {
+    margin-left: 20px;
+}
+
+.order-content .rightside .total {
+    margin: 15px 0;
+    padding: 15px 25px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.order-content .rightside .total>p {
+    color: #616161;
+}
+
+.order-content .rightside .total .amount {
+    font-weight: bold;
+    font-size: 26px;
+    color: #ff6700;
+}
+
+.order-content .rightside .submit {
+    background-color: #ff6700;
+    color: #fff;
+    height: 60px;
+    width: 300px;
+    font-size: 20px;
+    border: 1px solid #ff6700;
+    border-radius: 5px;
+    outline: none;
+}
+
+.order-content .rightside .tuihuo {
+    color: #aaa;
+}
+
+.order-content .rightside .tuihuo .fa-check-circle-o {
+    font-size: 20px;
+    color: #00be00;
+}

@@ -1,0 +1,77 @@
+.service-box {
+    box-shadow: #ccc 0 -10px 10px;
+}
+
+.service-box .service-crumbs {
+    padding: 15px 0;
+    background-color: #fff;
+}
+
+.service-box .service-crumbs a,
+.service-box .service-crumbs .sep {
+    color: #444;
+    font-size: 13px;
+}
+
+.service-box .service-crumbs a:hover {
+    color: #ff6700;
+}
+
+.service-box .service-crumbs .sep {
+    margin: 0 10px;
+}
+
+.service-box .row {
+    display: flex;
+}
+
+.service-box .row .col {
+    background-color: #eee;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.service-box .row .leftside {
+    flex: 3;
+    margin-right: 15px;
+    padding: 20px 0;
+}
+
+.service-box .row .leftside>* {
+    display: block;
+    margin-left: 50px;
+}
+
+.service-box .row .leftside a {
+    margin-bottom: 15px;
+    color: #666;
+    font-size: 14px;
+}
+
+.service-box .row .leftside a:hover {
+    color: #ff6700;
+}
+
+.service-box .row .leftside a:active {
+    color: #ff6700;
+}
+
+.service-box .row .rightside {
+    flex: 9;
+    padding: 20px 0;
+}
+
+.service-box .row .rightside>* {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.service-box .row .rightside .purchase-time {
+    font-size: 30px;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.service-box .row .rightside p {
+    font-size: 13px;
+}

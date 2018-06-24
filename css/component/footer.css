@@ -1,0 +1,53 @@
+.foot {
+    margin-top: 100px;
+    background-color: #f4f4f4;
+}
+
+.foot .mi-service {
+    margin-top: 40px;
+    padding-top: 30px;
+}
+
+.foot .mi-service a {
+    color: #444;
+    padding: 20px 0px;
+    padding-left: 100px;
+}
+
+.foot .service-guide {
+    padding: 20px 0;
+    border-top: 1px solid #444;
+    margin-top: 30px;
+}
+
+.foot .service-guide table {
+    width: 960px;
+    height: 112px;
+    text-align: left;
+}
+
+.foot .service-guide table td {
+    font-size: 12px;
+}
+
+.foot .service-guide table td a {
+    color: #666;
+}
+
+.foot .service-guide table td a:hover {
+    color: #ff6700;
+}
+
+.foot .service-guide .customer-service {
+    padding: 20px;
+    margin-top: -150px;
+    text-align: center;
+}
+
+.foot .service-guide .customer-service .online {
+    border: 1px solid #ff6700;
+    color: #ff6700;
+    border-radius: 5px;
+    background-color: #fff;
+    height: 30px;
+}

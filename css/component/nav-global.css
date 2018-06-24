@@ -1,0 +1,36 @@
+.nav {
+    background-color: #444;
+}
+
+.nav .col {
+    font-size: 16px;
+    display: inline-block;
+    width: 50%;
+}
+.nav .col-left{
+    text-align: left;
+}
+.nav .col-right {
+    text-align: right;
+}
+.nav a {
+    display: inline-block;
+    color: #aaa;
+    padding: 12px 8px;
+}
+
+.nav a:first-child {
+    padding-left: 0;
+}
+
+.nav a:last-child {
+    padding-right: 0;
+}
+
+.nav a:hover {
+    color: #eee;
+}
+
+.nav .interval {
+    color: #ccc;
+}

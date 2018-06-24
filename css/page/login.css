@@ -1,0 +1,173 @@
+@media (max-width:10000px) {
+    .wrapper {
+        width: 1130px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:1024px) {
+    .wrapper {
+        width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:768px) {
+    .wrapper {
+        width: 750px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:415px) {
+    .wrapper {
+        width: 360px;
+        margin: 0 auto;
+    }
+}
+
+.header {
+    padding: 20px 0;
+}
+
+.header .login img {
+    width: 200px;
+    height: 55px;
+}
+
+.login-banner {
+    height: 588px;
+}
+
+.login-banner .photo-link {
+    display: block;
+    width: 100%;
+    height: 492px;
+    background-image: url(https://i8.mifile.cn/b2c-mimall-media/6d429be9d539b68d8eb99849b9d67eb8.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 1%;
+}
+
+.login-banner .login {
+    margin-top: -400px;
+    margin-right: 15%;
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+.login-banner .login .login-method {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.login-banner .login .login-method .sep {
+    margin: 0 30px;
+    color: #aaa;
+}
+
+.login-banner .login .login-method .account-login:active,
+.login-banner .login .login-method .scan-login:active {
+    color: #ff6700;
+}
+
+.login-banner .login .login-mesg-input>* {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.login-banner .login .login-mesg-input .account,
+.login-banner .login .login-mesg-input .password {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: 1px solid #aaa;
+}
+
+.login-banner .login .login-mesg-input .account:focus,
+.login-banner .login .login-mesg-input .password:focus {
+    outline: none;
+}
+
+.login-banner .login .login-mesg-input .submit {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #ff6700;
+    outline: none;
+    border: 0;
+    color: #fff;
+}
+
+.login-banner .login .login-tools p {
+    display: inline-block;
+    font-size: 13px;
+}
+
+.login-banner .login .login-tools a {
+    color: #666;
+}
+
+.login-banner .login .login-tools a:hover {
+    color: #ff6700;
+}
+
+.login-banner .login .login-tools a:active {
+    color: #ff6700;
+}
+
+.login-banner .login .login-others {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.login-banner .login .login-others a {
+    margin: 0 15px;
+    font-size: 24px;
+    color: #666;
+}
+
+.footer {
+    clear: both;
+    margin: 40px 0;
+}
+
+.footer .wrapper {
+    text-align: center;
+}
+
+.footer .lang-select {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer .lang-select a {
+    color: #666;
+}
+
+.footer .lang-select a:hover {
+    color: #ff6700;
+}
+
+.footer .lang-select a:active {
+    color: #ff6700;
+}
+
+.footer .lang-select .sep {
+    color: #666;
+    margin: 0 10px;
+}
+
+.footer .copyright {
+    color: #666;
+    text-align: center;
+}
+
+.footer .copyright img {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+}

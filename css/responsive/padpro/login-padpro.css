@@ -1,0 +1,8 @@
+@media (max-width:1024px) {
+    .login-banner .photo-link {
+        background-position: 45% 1%;
+    }
+    .login-banner .login {
+        margin-right: 4%;
+    }
+}

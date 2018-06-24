@@ -1,0 +1,36 @@
+@media (max-width:415px) {
+    .header .wrapper .login img {
+        margin-left: 75px;
+    }
+    .login-banner .photo-link {
+        display: none;
+    }
+    .login-banner {
+        height: 450px;
+    }
+    .login-banner .login {
+        float: none;
+        margin: 20px auto;
+    }
+    .login-banner .login .login-mesg-input {
+        text-align: center;
+    }
+    .login-banner .login .login-mesg-input .account,
+    .login-banner .login .login-mesg-input .password,
+    .login-banner .login .login-mesg-input .submit {
+        width: 354px;
+    }
+    .login-banner .login .login-others {
+        margin-top: 20px;
+    }
+    .footer {
+        margin-top: 10px;
+    }
+    .footer .lang-select a,
+    .footer .copyright {
+        font-size: 12px;
+    }
+    .footer .lang-select .sep {
+        margin: 0 5px;
+    }
+}
